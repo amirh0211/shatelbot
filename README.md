@@ -1,20 +1,20 @@
-Bug fixes anti-flood
-
+# Bug fixes anti-flood
+```
 rm -r ~/.telegram-cli/state
-___________________________enter
-new terminal
-___________________________
-sudo service redis-server start
-___________________________enter
-redis-cli
-__________________________enter
-new terminal
-__________________________
-cd shatelbot
-__________________________enter
-./launch.sh
-__________________________
 
+new terminal
+
+sudo service redis-server start
+
+redis-cl
+
+new terminal
+
+cd shatelbot
+
+./launch.sh
+
+```
 
 
 # Installation 
@@ -33,5 +33,5 @@ chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
 
-....
+```
 
