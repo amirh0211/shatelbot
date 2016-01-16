@@ -6,7 +6,7 @@ new terminal
 
 sudo service redis-server start
 
-redis-cl
+redis-cli
 
 new terminal
 
